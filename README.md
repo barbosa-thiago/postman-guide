@@ -8,7 +8,7 @@
 
 <br />
 
-#### On Scripts > Pre-Request, create a script to get the token. you can use postman's pm object <br /> like in example. Again, only work if it is saved
+#### On Scripts > Pre-Request, create a script to get the token. you can use postman's pm object <br /> like in example. Needs to be saved.
 
 ```javascript
 const clientId = "<--clientId-->"
@@ -65,3 +65,4 @@ pm.sendRequest(getTokenRequest, (err, response) => {
 - Check any error logged
 
 - Confirm res.json().access_token exists
+
