@@ -2,7 +2,7 @@
 
 ### Embedding token to all requests in a collection
 
-#### In a collection, go to variables and create a variable without any value. you can name it *access_token*. Needs to be saved
+#### In a collection, go to variables and create a variable without any value. you can name it *access_token*.
 
 ![Alt text](img/img.png?raw=True)
 
@@ -63,4 +63,5 @@ pm.sendRequest(getTokenRequest, (err, response) => {
 - Verify Credentials
 - Check Token URL
 - Check any error logged
+
 - Confirm res.json().access_token exists
